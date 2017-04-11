@@ -1,0 +1,93 @@
+	.container-fluid {
+	width: 100%;
+}
+
+.container {
+	width: 768px;
+	margin: 0 auto;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	box-sizing: border-box;
+}
+	.row {
+		width: 100%;
+		overflow: hidden;
+	}
+	[class*="col-"] {
+		float: left;
+		padding-left: 0.15rem;
+		padding-right: 0.15rem;
+		box-sizing: border-box;
+	}
+	.col-sm-1 {
+		width: 5%;
+	}
+	.col-sm-2 {
+		width: 10%;
+	}
+	.col-sm-3 {
+		width: 15%;
+	}
+	.col-sm-4 {
+		width: 20%;
+	}
+	.col-sm-5 {
+		width: 25%;
+	}
+	.col-sm-6 {
+		width: 30%;
+	}
+	.col-sm-7 {
+		width: 35%;
+	}
+	.col-sm-8 {
+		width: 40%;
+	}
+	.col-sm-9 {
+		width: 45%;
+	}
+	.col-sm-10 {
+		width: 50%;
+	}
+	.col-sm-11 {
+		width: 55%;
+	}
+	.col-sm-12 {
+		width: 60%;
+	}
+	.col-sm-13 {
+		width: 65%;
+	}
+	.col-sm-14 {
+		width: 70%;
+	}
+	.col-sm-15 {
+		width: 75%;
+	}
+	.col-sm-16 {
+		width: 80%;
+	}
+	.col-sm-17 {
+		width: 85%;
+	}
+	.col-sm-18 {
+		width: 90%;
+	}
+	.col-sm-19 {
+		width: 95%;
+	}
+	.col-sm-20 {
+		width: 100%;
+	}
+	.col-lg-hiden {
+		display: none;
+	}
+	.col-md-hiden {
+		display: none;
+	}
+	.col-sm-hiden {
+		display: none;
+	}
+	.col-xs-hiden {
+		display: block;
+	}

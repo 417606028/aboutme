@@ -1,0 +1,783 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+header {
+	height: 6.96rem;
+	background-image: url(../img/baner.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+.headerbac {
+	height: 6.96rem;
+	background: rgba(0, 0, 0, .6);
+	/*opacity: .70;
+	filter:alpha(Opacity=70);
+	-moz-opacity:0.7;*/
+}
+
+.navbox {
+	height: 0.8rem;
+	background: rgba(0, 0, 0, .7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	margin: auto;
+}
+
+.headernav {
+	height: 0.8rem;
+}
+
+
+/*.navbox:hover{
+	background: rgba(0,0,0,.7);
+}*/
+
+.headernav .logo {
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.headernav .logo a {
+	height: 0.8rem;
+	display: block;
+	font-size: 0.48rem;
+	margin-right: 0.5rem;
+	color: #fff;
+	font-family: helvetica;
+}
+
+.headernav .navlist {
+	width: 80%;
+	text-align: justify;
+	box-sizing: border-box;
+}
+
+.headernav .navlist:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0px;
+}
+
+.navlist li {
+	float: left;
+	font-size: 0.24rem;
+	color: #fff;
+	padding: 0 0.14rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.headernav .navlist li h6 {
+	text-decoration: overline;
+}
+
+.headernav .navlist li span {
+	font-size: 0.10rem;
+}
+
+.headernav .navlist li:hover h6 {
+	color: #00BFFF;
+}
+
+.headernav .navlist li:hover span {
+	color: #00BFFF;
+}
+
+.headernav .navlist li:hover .love {
+	color: pink;
+}
+
+.headernav .navlist li:hover .gj {
+	color: pink;
+}
+
+.headernav .navlist li .gj {
+	transition: all 0.5s ease 0;
+}
+
+header .hello {
+	height: 0.4rem;
+	font-size: 0.35rem;
+	text-align: center;
+	position: absolute;
+	top: 3rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #fff;
+}
+
+header .start {
+	height: 0.4rem;
+	font-size: 0.14rem;
+	text-align: center;
+	position: absolute;
+	top: 3.59rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #fff;
+	cursor: pointer;
+}
+
+header .started {
+	width: 2.0rem;
+	height: 0.8rem;
+	/*background: rgba(0,0,0,0.5);*/
+	position: absolute;
+	top: 3.80rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #fff;
+	font-size: 0.24rem;
+	transition: all 1s ease 0;
+}
+
+header .started:hover {
+	background: rgba(0, 0, 0, .8);
+	border-radius: 0.2rem;
+	transform: rotateX(360deg);
+}
+
+.aboutbox {
+	height: 8rem;
+	margin-bottom: 0.2rem;
+}
+
+.aboutbox .titleabout {
+	margin-bottom: 0.2rem;
+	font-size: 0.4rem;
+	text-align: center;
+}
+
+.aboutbox>div {
+	float: left;
+	height: 3rem;
+	overflow: hidden;
+	border: 1px solid #F0F0F0;
+	margin-top: 0.3rem;
+}
+
+.aboutbox>div:hover {
+	box-shadow: 0 0.05rem 0.2rem 0.05rem rgba(0, 0, 0, 0.3);
+	transform: translateY(-0.1rem);
+}
+
+.aboutbox .section .sec-art {
+	text-align: center;
+	font-size: 0.28rem;
+	margin-top: 0.2rem;
+}
+
+.aboutbox .section .sec-con {
+	text-align: center;
+	font-size: 0.14rem;
+	color: #ccc;
+	padding-top: 0.2rem;
+}
+
+.careerbox {
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.careerbox .titlecareer {
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+.careerbox .carsec {
+	height: 4.4rem;
+	border: 1px solid #f0f0f0;
+}
+
+.careerbox .carsec>div {
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.carsec .carartbox {
+	overflow: hidden;
+}
+
+.carartbox .carpic {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.carartbox .carpic:hover {
+	opacity: 0.6;
+}
+
+.carartbox .carart {
+	width: 50%;
+	height: 100%;
+	color: #000;
+	float: left;
+	font-size: 0.16rem;
+}
+
+.carartbox .carart:hover {
+	font-size: 0.24rem;
+	color: purple;
+}
+
+.skillsbox {
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.skillsbox .titleskills {
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+.skillsbox>div {
+	height: 2rem;
+	margin-bottom: 0.2rem;
+	border: 1px solid #f0f0f0;
+}
+
+.skillsbox .skillsec1 {
+	background-image: url(../img/skill3.jpg);
+}
+
+.skillsbox .skillsec2 {
+	background-image: url(../img/skill4.jpg);
+}
+
+.skillsbox .skillsec3 {
+	background-image: url(../img/skill1.jpg);
+}
+
+.skillsbox .skillsec4 {
+	background-image: url(../img/skill2.jpg);
+}
+
+.skillsbox .skillss {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 0.4rem;
+	font-weight: bold;
+	display: none;
+}
+
+.skillsbox>div:hover .skillss {
+	display: block;
+}
+
+.mindbox {
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.mind .mindbox .titlemind {
+	font-size: 0.4rem;
+	text-align: center;
+	color: #000;
+}
+
+.mindsec {
+	margin-top: 0.2rem;
+	height: 4rem;
+	margin-bottom: 0.2rem;
+}
+
+.mindsec .mindsecgjwanan {
+	font-size: 0.28rem;
+	color: #ccc;
+	text-align: center;
+}
+
+.mindsec .mindartgjwanan {
+	font-size: 0.18rem;
+	color: #ccc;
+	text-align: center;
+	border: 1px solid #f0f0f0;
+	transition: all 0.5s ease 0;
+}
+
+.mindsec:hover {
+	transform: translateY(-0.1rem);
+	box-shadow: 0 0.05rem 0.2rem 0.05rem hotpink;
+}
+
+.mindsec .mindsecgjwanan:hover {
+	color: deeppink;
+	transform: scale(2);
+}
+
+.mindsec .mindartgjwanan:hover {
+	color: plum;
+}
+
+.hobbytitle {
+	font-size: 0.4rem;
+	text-align: center;
+}
+
+.hobbyart>p {
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	animation: rotate-frame 10s linear infinite alternate;
+}
+
+.hobbyart>p:hover {
+	color: purple;
+}
+
+.hobbyart {
+	height: 8rem;
+	background-image: url(../img/tz.jpg);
+	background-origin: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	perspective: 19.512195rem;
+	perspective-origin: 50% 50%;
+	/*animation: rotate-frame 30s linear infinite alternate;*/
+}
+
+.hobbybox-before {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background-image: url(../img/gj03.jpg);
+	background-origin: center center;
+	background-size: 3rem 3rem;
+	background-repeat: no-repeat;
+	transform-style: preserve-3d;
+	animation: rotate-frame 30s linear infinite alternate;
+}
+
+.hobbybox-top {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	background-image: url(../img/GJ.jpg);
+	background-origin: center center;
+	background-size: 3rem 3rem;
+	background-repeat: no-repeat;
+	transform: rotateX(90deg);
+	transform-origin: top;
+}
+
+.hobbybox-left {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	background-image: url(../img/gjj.jpg);
+	background-origin: center center;
+	background-size: 3rem 3rem;
+	background-repeat: no-repeat;
+	transform: rotateY(-90deg);
+	transform-origin: left;
+}
+
+.hobbybox-right {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	background-image: url(../img/GJJJ.jpg);
+	background-origin: center center;
+	background-size: 3rem 3rem;
+	background-repeat: no-repeat;
+	transform: rotateY(90deg);
+	transform-origin: right;
+}
+
+.hobbybox-bottom {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	background-image: url(../img/gjj.jpg);
+	background-origin: center center;
+	background-size: 3rem 3rem;
+	background-repeat: no-repeat;
+	transform: rotateX(-90deg);
+	transform-origin: bottom;
+}
+
+.hobbybox-after {
+	width: 3rem;
+	height: 3rem;
+	background-image: url(../img/GJJJ.jpg);
+	background-origin: center center;
+	background-size: 3rem 3rem;
+	background-repeat: no-repeat;
+	transform: translateZ(3rem);
+}
+
+@keyframes rotate-frame {
+	0% {
+		transform: rotateX(0deg) rotateY(0deg);
+	}
+	10% {
+		transform: rotateX(0deg) rotateY(180deg);
+	}
+	20% {
+		transform: rotateX(-180deg) rotateY(180deg);
+	}
+	30% {
+		transform: rotateX(-360deg) rotateY(180deg);
+	}
+	40% {
+		transform: rotateX(-360deg) rotateY(360deg);
+	}
+	50% {
+		transform: rotateX(-180deg) rotateY(360deg);
+	}
+	60% {
+		transform: rotateX(90deg) rotateY(180deg);
+	}
+	70% {
+		transform: rotateX(0) rotateY(180deg);
+	}
+	80% {
+		transform: rotateX(90deg) rotateY(90deg);
+	}
+	90% {
+		transform: rotateX(90deg) rotateY(0);
+	}
+	100% {
+		transform: rotateX(0) rotateY(0);
+	}
+}
+
+.honorbox {
+	height: 5.7rem;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.honorbox .titlehonor {
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+
+.honorbox .honsec {
+	height: 4.4rem;
+	border: 1px solid #f0f0f0;
+}
+
+.honorbox .honsec>div {
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+.honsec .honartbox {
+	overflow: hidden;
+}
+
+.honartbox .honpic {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.honartbox .honpic:hover {
+	opacity: 0.6;
+}
+
+.honartbox .honart {
+	width: 50%;
+	height: 100%;
+	color: #000;
+	float: left;
+	font-size: 0.16rem;
+}
+
+.honartbox .honart:hover {
+	font-size: 0.24rem;
+	color: #ff6700;
+}
+
+.xd3 {
+	margin-top: 0.2rem;
+}
+
+.xd3box .xd3title {
+	width: 100%;
+	height: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	font-size: 0.4rem;
+}
+
+.xd3content {
+	height: 5rem;
+	margin-top: 0.2rem;
+	background-image: url(../img/skill2.jpg);
+	background-size: cover;
+	background-position: center center;
+	perspective: 5rem;
+	-webkit-perspective: 5rem;
+	-moz-perspective: 5rem;
+	-ms-perspective: 5rem;
+}
+
+.xd3content>div {
+	height: 5rem;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+}
+
+.xd3content .xd31>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xd3content .xd32>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xd3content .xd33>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xd3content .xd34>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.xd3content .xd31 .world .box {
+	width: 100%;
+	height: 2.5rem;
+}
+
+.xd3content .vr {
+	display: block;
+	width: 1rem;
+	height:1rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: #98FB98 url(../img/gj03.jpg) no-repeat center center;
+	background-size: 100% 100%;
+	z-index: 99;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.vr_wrap {
+	background: #fff;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0px 0px 0.5rem 0.1rem #fbfbfb;
+	animation: mymove 2s infinite;
+	border-radius: 50%;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.xd3content .xd32 .vr{
+	background: #98FB98 url(../img/gjj.jpg)no-repeat center center;
+	background-size: 100% 100%;
+}
+.xd3content .xd33 .vr{
+	background: #98FB98 url(../img/GJ.jpg)no-repeat center center;
+	background-size: 100% 100%;
+}
+.xd3content .xd34 .vr{
+	background: #98FB98 url(../img/GJJJ.jpg)no-repeat center center;
+	background-size: 100% 100%;
+}
+.vr_wrap2 {
+	background: #fff;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	border-radius: 50%;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0px 0px 0.5rem 0.1rem #fbfbfb;
+	animation: mymove1 2s infinite;
+	-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);
+}
+
+@keyframes mymove {
+	0% {
+		box-shadow: 0px 0px 0px 0.02rem #fff;
+		height: 1rem;
+		width: 1rem;
+	}
+	100% {
+		box-shadow: 0px 0px 0px 0.2rem #fff;
+		height: 1.01rem;
+		width: 1.01rem;
+	}
+	100% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+}
+
+@keyframes mymove1 {
+	0% {
+		box-shadow: 0px 0px 0px 0.02rem #fff;
+		height: 1rem;
+		width: 1.01rem;
+	}
+	50% {
+		box-shadow: 0px 0px 0px 0.2rem #fff;
+		height: 1.01rem;
+		width: 1.01rem;
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+}
+
+.xd3content h2 {
+	width: 100%;
+	font-size: 0.24rem;
+	color: #FFF;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+
+.xd3content p {
+	margin-top: 0.2rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: #fff;
+}
+
+.xd31 .world {
+	height: 100%;
+	background-image: url(../img/03f4b7d6aca718919a1f6d07ee3e2137d833c56c23f3a-zMg0Uz_fw658.jpg);
+	background-size: cover;
+}
+
+.xd32 .world {
+	height: 100%;
+	background-image: url(../img/3e09bb39d849282f3a328b445233fbb4649d6a0c4f856-OTr440_fw658.jpg);
+	background-size: cover;
+}
+
+.xd33 .world {
+	height: 100%;
+	background-image: url(../img/1f2ad995b0147205f4c33ac407fcd28b7890a50e2288a-3ImZbx_fw658.jpg);
+	background-size: cover;
+}
+
+.xd34 .world {
+	height: 100%;
+	background-image: url(../img/5f96b4fb34b2bf5de22bf20f866c39c8554ace9c34e86-smawym_fw658.jpg);
+	background-size: cover;
+}
+.loml {
+	height: 5.8rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.lomlbox {
+	height: 12rem;
+	padding: 0.6rem 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.lomlbox .piclove {
+	height: 3.24rem;
+	padding-top: 0.2rem;
+	background-size: contain;
+	box-sizing: border-box;
+	opacity: 0.7;
+}
+
+.lomlbox .title1 {
+	height: 0.4rem;
+	font-size: 0.4rem;
+	text-align: center;
+}
+
+.lomlbox .content {
+	padding-top: 0.2rem;
+	margin-right: 0;
+	text-align: center;
+	float: left;
+	font-size: 0.16rem;
+}
+
+.lomlbox .content1 {
+	padding-top: 0.2rem;
+	margin-left: 0;
+	text-align: center;
+	float: left;
+	font-size: 0.16rem;
+}
+
+.copy {
+	height: 0.88rem;
+	background: #CCCCCC;
+}
+
+.copy .copysec {
+	color: #000;
+	font-size: 0.18rem;
+	line-height: 0.88rem;
+	border-top: 1px solid #000;
+}
